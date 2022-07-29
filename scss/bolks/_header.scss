@@ -1,0 +1,21 @@
+.site-header{
+    background-color: #0B0C2D;
+    padding: 14px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.header , .header__list{
+    @include center (space-between);
+}
+.header__list{
+    gap: 24px;
+}
+.header__item-link{
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
